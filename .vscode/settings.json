@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "TiroAoAlvaro.sln"
+    "dotnet.defaultSolution": "Trabaio2.sln"
 }
