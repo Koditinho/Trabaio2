@@ -8,14 +8,16 @@ public class GrounCheck : MonoBehaviour
     public bool isOnGround;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Piso")){
-            isOnGround=true;
+        if (other.CompareTag("Chao"))
+        {
+            isOnGround = true;
         }
     }
-     private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Piso")){
-            isOnGround=false;
+        if (other.CompareTag("Chao"))
+        {
+            isOnGround = false;
         }
     }
 }
